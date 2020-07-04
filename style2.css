@@ -20,7 +20,7 @@ html {
 }
 .navtext{
 	padding-right: 30px;
-	font-family: Nunito Sans;
+	font-family: Verdana;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
@@ -34,13 +34,13 @@ html {
 	justify-content: center;
 }
 .maintext{
-	font-family: Maven Pro;
+	font-family: Verdana;
 	font-weight: bold;
 	color: #FFFFFF;
 	font-size: 72px;
 }
 .subtext{
-	font-family: Maven Pro;
+	font-family: Verdana;
 	color: #FFFFFF;
 	font-size: 32px;
 }

@@ -17,7 +17,7 @@ body{
 }
 .navtext{
 	padding-right: 30px;
-	font-family: Nunito Sans;
+	font-family: Verdana;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
@@ -34,21 +34,21 @@ a{
 	justify-content: center;
 }
 #title{
-	font-family: Maven Pro;
+	font-family: Verdana;
 	font-size: 48px;
 	font-weight: bold;
 	padding-top: 100px;
 	color: #401d00;
 }
 #subtitle{
-	font-family: Maven Pro;
+	font-family: Verdana;
 	font-size: 24px;
 	padding-top: 10px;
 	color: #632d00;
 }
 .text{
 	width: 800px;
-	font-family: Maven Pro;
+	font-family: Verdana;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 1.8;
