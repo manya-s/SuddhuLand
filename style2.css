@@ -1,0 +1,46 @@
+@font-face{
+	font-family: Maven Pro;
+	src: url(MavenPro-Bold.ttf);
+}
+html,body { height: 100%; margin: 0px; padding: 0px; }
+html { 
+  background: url(universe.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	top: 0;
+	width: 100%;
+}
+.navtext{
+	padding-right: 30px;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 25px;
+}
+.text{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.maintext{
+	font-family: Maven Pro;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 72px;
+}
+.subtext{
+	font-family: Maven Pro;
+	color: #FFFFFF;
+	font-size: 32px;
+}

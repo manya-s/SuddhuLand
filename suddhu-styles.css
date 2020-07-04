@@ -1,0 +1,112 @@
+body{
+	cursor: url("cursor1.png"), auto;
+}
+@font-face{
+	font-family: Maven Pro;
+	src: url(MavenPro-Bold.ttf);
+}
+
+a{
+	 text-decoration: none;
+	 color: #444444;
+}
+a:hover{
+	cursor: url("cursor1.png"), auto;
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	top: 0;
+	width: 100%;
+}
+.navtext{
+	padding-right: 30px;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 25px;
+}
+.homebody{
+	display: flex;
+	flex-wrap: wrap;
+}
+#castle{
+
+	padding: 50px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#AoJP{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+}
+#vision{
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 75px;
+	padding-left: 100px;
+}
+#cute{
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 150px;
+	padding-left: 300px;
+}
+#lady{
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 200px;
+	padding-top: 20px;
+}
+#diamond{
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10px;
+	padding-left: 300px;
+}
+#hydrogen{
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 250px;
+	padding-left: 20px;
+}
+#whatsapp{
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 100px;
+
+}
+#bakery{
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 150px;
+	padding-top: 100px;
+}
+#dog{
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 20px;
+}
+.img_text{
+	font-family: Maven Pro;
+	color: #FFFFFF;
+}
+.img:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}

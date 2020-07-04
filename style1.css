@@ -1,0 +1,58 @@
+body{
+	cursor: url("cursor2.png"), auto;
+}
+
+@font-face{
+	font-family: Maven Pro;
+	src: url(MavenPro-Bold.ttf);
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	top: 0;
+	width: 100%;
+
+}
+.navtext{
+	padding-right: 30px;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 25px;
+}
+a{
+	 text-decoration: none;
+	 color: #444444;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#title{
+	font-family: Maven Pro;
+	font-size: 48px;
+	font-weight: bold;
+	padding-top: 100px;
+	color: #401d00;
+}
+#subtitle{
+	font-family: Maven Pro;
+	font-size: 24px;
+	padding-top: 10px;
+	color: #632d00;
+}
+.text{
+	width: 800px;
+	font-family: Maven Pro;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.8;
+	padding-top: 50px;
+	color: #632d00;
+	padding-bottom: 50px;
+}
